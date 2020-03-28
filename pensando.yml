@@ -2,4 +2,4 @@
   hosts: all
   tasks:
     - name: runnex_launcher
-      command: hostname
+      command: python /home/ymedinas/Documents/git_workplace/python_project/py_for_ansible.py
