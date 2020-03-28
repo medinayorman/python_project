@@ -1,4 +1,3 @@
----
 - name: Mi Primer playbook para copiar
   host: all
   tasks:
