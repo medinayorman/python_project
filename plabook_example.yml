@@ -1,5 +1,5 @@
 - name: Mi Primer playbook para copiar
-  host: all
+  hosts: all
   tasks:
     - name: Copiar_fichero_hosts
       command: hostname
