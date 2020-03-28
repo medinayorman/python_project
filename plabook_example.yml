@@ -1,0 +1,7 @@
+---
+- name: Mi Primer playbook para copiar
+  host: all
+  tasks:
+   - name: Copiar fichero hosts
+     command: hostname
+

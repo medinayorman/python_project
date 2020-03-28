@@ -1,0 +1,5 @@
+- name: Hello World Sample
+  hosts: all
+  tasks:
+    - name: runnex_launcher
+      command: python /home/ymedinas/Documents/git_workplace/python_project/py_for_ansible.py
